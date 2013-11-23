@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+.container {
+	margin-top: 20px;
+}
+
+.left-container {
+	float: left;
+	margin-right: 20px;
+	width: 20%;
+}
+
+.top-buttons {
+	margin-bottom: 100px;
+}
+
+.right-container {
+	float: left;
+	width: 60%;
+}
+
+.editor {
+	width: 100%;
+	height: 500px;
+}
+
+#fieldsTable {
+	width: 100%;
+}
+
+#fieldsTable td {
+	padding-right: 10px
+}
+
+#fieldsTable td input {
+	width: 100%;
+}
+
+#fieldsTable td:nth-child(odd) {
+	text-align: right;
+}
+
+#fieldsTable td:nth-child(even) {
+	text-align: left;
+}
